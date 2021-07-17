@@ -12,6 +12,7 @@ namespace Vidly.Controllers
     {
 
         // GET: Movies/Random
+        //test push for user name
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shrek!" };
