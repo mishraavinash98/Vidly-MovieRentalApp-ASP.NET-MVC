@@ -195,9 +195,30 @@
     <Compile Include="Migrations\202107181136116_ApplyAnotationsToCustomerName.Designer.cs">
       <DependentUpon>202107181136116_ApplyAnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107181201001_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202107181201001_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202107181201001_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107181202093_UpdateNamesToMembershipTypes.cs" />
+    <Compile Include="Migrations\202107181202093_UpdateNamesToMembershipTypes.Designer.cs">
+      <DependentUpon>202107181202093_UpdateNamesToMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107181212226_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\202107181212226_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>202107181212226_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107181309471_AddPropertiesToMovie.cs" />
+    <Compile Include="Migrations\202107181309471_AddPropertiesToMovie.Designer.cs">
+      <DependentUpon>202107181309471_AddPropertiesToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107181311205_PopulateGenre.cs" />
+    <Compile Include="Migrations\202107181311205_PopulateGenre.Designer.cs">
+      <DependentUpon>202107181311205_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -301,6 +322,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107181136116_ApplyAnotationsToCustomerName.resx">
       <DependentUpon>202107181136116_ApplyAnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107181201001_AddNameToMembershipType.resx">
+      <DependentUpon>202107181201001_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107181202093_UpdateNamesToMembershipTypes.resx">
+      <DependentUpon>202107181202093_UpdateNamesToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107181212226_AddBirthDateToCustomer.resx">
+      <DependentUpon>202107181212226_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107181309471_AddPropertiesToMovie.resx">
+      <DependentUpon>202107181309471_AddPropertiesToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107181311205_PopulateGenre.resx">
+      <DependentUpon>202107181311205_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
